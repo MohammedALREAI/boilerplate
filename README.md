@@ -1,4 +1,4 @@
-![Logo](https://ljtech.ca/logo.png)
+![Logo](https://ljtech.ca/76h/logo.png)
 
 # ljtech Boilerplate
 
