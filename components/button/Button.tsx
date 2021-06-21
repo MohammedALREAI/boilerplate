@@ -7,7 +7,7 @@ export interface IButtonProps {
   className?: string;
   style?: React.CSSProperties;
   styleType?: string;
-  type?: string;
+  type?: "button" | "submit" | "reset";
 }
 
 export interface IAnchorProps {
@@ -40,6 +40,7 @@ export function Button({
       <button
         className={[className, styles[styleType]].filter(Boolean).join(" ")}
         style={style}
+        type={type}
       >
         {children}
       </button>
